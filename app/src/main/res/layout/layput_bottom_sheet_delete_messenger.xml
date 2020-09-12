@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+   android:layout_gravity="center_horizontal">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_height="56dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_delete"/>
+        <TextView
+            android:id="@+id/textView_delete"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:paddingLeft="20dp"
+            android:textSize="20dp"
+            android:text="Delete one messenger"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"
+    android:background="#BDBDBD"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_height="56dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_delete"/>
+        <TextView
+            android:id="@+id/textView_multi_delete"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:paddingLeft="20dp"
+            android:textSize="20dp"
+            android:text="Delete All messenger"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Private Chat </string>
+    <string name="app_chat">Private Chat</string>
+    <string name="dang_nhap">LOGIN</string>
+    <string name="dang_ky">REGISTER</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Messenger</string>
+    <string name="tab_text_2">User</string>
+    <string name="tab_text_3">Group</string>
+    <string name="tab_text_4">Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dang_ky_tai_khoan">Register Account</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btn_dang_ky">Register</string>
+    <string name="dang_nhap_tai_khoan">Login Account</string>
+    <string name="dang_xuat">Sign Out</string>
+    <string name="quen_mat_khau">Forget Password</string>
+    <string name="todo">TODO</string>
+</resources>
